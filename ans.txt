@@ -1,0 +1,182 @@
+pre 2011
+
+Call:
+lm(formula = GDP.growth..annual... ~ Domestic.credit.to.private.sector....of.GDP. + 
+    Exports.of.goods.and.services..annual...growth. + Imports.of.goods.and.services..annual...growth. + 
+    India_Dummy, data = data2)
+
+Residuals:
+    Min      1Q  Median      3Q     Max 
+-36.357  -1.557  -0.179   1.209  50.916 
+
+Coefficients:
+                                                Estimate Std. Error t value
+(Intercept)                                      3.25651    0.34604   9.411
+Domestic.credit.to.private.sector....of.GDP.    -0.01130    0.00325  -3.477
+Exports.of.goods.and.services..annual...growth.  0.06094    0.02272   2.683
+Imports.of.goods.and.services..annual...growth.  0.12021    0.01853   6.488
+India_Dummy                                      1.06936    1.20114   0.890
+                                                Pr(>|t|)    
+(Intercept)                                      < 2e-16 ***
+Domestic.credit.to.private.sector....of.GDP.    0.000549 ***
+Exports.of.goods.and.services..annual...growth. 0.007527 ** 
+Imports.of.goods.and.services..annual...growth. 1.99e-10 ***
+India_Dummy                                     0.373713    
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+Residual standard error: 3.892 on 534 degrees of freedom
+Multiple R-squared:  0.2227,	Adjusted R-squared:  0.2168 
+F-statistic: 38.24 on 4 and 534 DF,  p-value: < 2.2e-16
+
+post 2011
+
+Call:
+lm(formula = GDP.growth..annual... ~ Domestic.credit.to.private.sector....of.GDP. + 
+    Exports.of.goods.and.services..annual...growth. + Imports.of.goods.and.services..annual...growth. + 
+    India_Dummy, data = data2)
+
+Residuals:
+    Min      1Q  Median      3Q     Max 
+-4.8837 -1.9012 -0.1381  1.0263 13.5393 
+
+Coefficients:
+                                                 Estimate Std. Error t value
+(Intercept)                                      3.216408   0.371355   8.661
+Domestic.credit.to.private.sector....of.GDP.    -0.012469   0.003485  -3.578
+Exports.of.goods.and.services..annual...growth.  0.080171   0.033089   2.423
+Imports.of.goods.and.services..annual...growth.  0.178561   0.029815   5.989
+India_Dummy                                      4.346343   1.320117   3.292
+                                                Pr(>|t|)    
+(Intercept)                                     1.95e-15 ***
+Domestic.credit.to.private.sector....of.GDP.    0.000439 ***
+Exports.of.goods.and.services..annual...growth. 0.016329 *  
+Imports.of.goods.and.services..annual...growth. 1.03e-08 ***
+India_Dummy                                     0.001183 ** 
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+Residual standard error: 2.592 on 191 degrees of freedom
+Multiple R-squared:  0.3251,	Adjusted R-squared:  0.3109 
+F-statistic:    23 on 4 and 191 DF,  p-value: 1.585e-15
+
+pre 2011
+
+Call:
+lm(formula = GDP.growth..annual... ~ Domestic.credit.to.private.sector....of.GDP. + 
+    Exports.of.goods.and.services..annual...growth. + Imports.of.goods.and.services..annual...growth. + 
+    India_Dummy + Tax.revenue....of.GDP., data = data2)
+
+Residuals:
+    Min      1Q  Median      3Q     Max 
+-37.040  -1.451  -0.075   1.311  50.227 
+
+Coefficients:
+                                                 Estimate Std. Error t value
+(Intercept)                                      3.938850   0.386856  10.182
+Domestic.credit.to.private.sector....of.GDP.    -0.006432   0.003461  -1.858
+Exports.of.goods.and.services..annual...growth.  0.053659   0.022523   2.382
+Imports.of.goods.and.services..annual...growth.  0.122658   0.018315   6.697
+India_Dummy                                      1.008180   1.186684   0.850
+Tax.revenue....of.GDP.                          -0.075557   0.020055  -3.767
+                                                Pr(>|t|)    
+(Intercept)                                      < 2e-16 ***
+Domestic.credit.to.private.sector....of.GDP.    0.063660 .  
+Exports.of.goods.and.services..annual...growth. 0.017549 *  
+Imports.of.goods.and.services..annual...growth.  5.4e-11 ***
+India_Dummy                                     0.395941    
+Tax.revenue....of.GDP.                          0.000183 ***
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+Residual standard error: 3.845 on 533 degrees of freedom
+Multiple R-squared:  0.2428,	Adjusted R-squared:  0.2357 
+F-statistic: 34.19 on 5 and 533 DF,  p-value: < 2.2e-16
+
+post 2011
+
+Call:
+lm(formula = GDP.growth..annual... ~ Domestic.credit.to.private.sector....of.GDP. + 
+    Exports.of.goods.and.services..annual...growth. + Imports.of.goods.and.services..annual...growth. + 
+    India_Dummy + Tax.revenue....of.GDP., data = data2)
+
+Residuals:
+    Min      1Q  Median      3Q     Max 
+-5.7752 -1.5136 -0.3608  1.2239 13.9099 
+
+Coefficients:
+                                                 Estimate Std. Error t value
+(Intercept)                                      4.237284   0.422741  10.023
+Domestic.credit.to.private.sector....of.GDP.    -0.007789   0.003490  -2.232
+Exports.of.goods.and.services..annual...growth.  0.071686   0.031641   2.266
+Imports.of.goods.and.services..annual...growth.  0.195496   0.028715   6.808
+India_Dummy                                      4.187393   1.260575   3.322
+Tax.revenue....of.GDP.                          -0.099310   0.022409  -4.432
+                                                Pr(>|t|)    
+(Intercept)                                      < 2e-16 ***
+Domestic.credit.to.private.sector....of.GDP.     0.02681 *  
+Exports.of.goods.and.services..annual...growth.  0.02460 *  
+Imports.of.goods.and.services..annual...growth. 1.26e-10 ***
+India_Dummy                                      0.00107 ** 
+Tax.revenue....of.GDP.                          1.58e-05 ***
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+Residual standard error: 2.474 on 190 degrees of freedom
+Multiple R-squared:  0.3883,	Adjusted R-squared:  0.3722 
+F-statistic: 24.12 on 5 and 190 DF,  p-value: < 2.2e-16
+
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$4
+
+
+Call:
+lm(formula = GDP.growth..annual... ~ Domestic.credit.to.private.sector....of.GDP. + 
+    Exports.of.goods.and.services..annual...growth. + Imports.of.goods.and.services..annual...growth. + 
+    Tax.revenue....of.GDP. + India_Dummy * T + India_Dummy + 
+    T + Domestic.credit.to.private.sector....of.GDP. * T + Exports.of.goods.and.services..annual...growth. * 
+    T + Imports.of.goods.and.services..annual...growth. * T + 
+    Tax.revenue....of.GDP. * T, data = data2)
+
+Residuals:
+    Min      1Q  Median      3Q     Max 
+-37.040  -1.459  -0.104   1.302  50.227 
+
+Coefficients:
+                                                   Estimate Std. Error t value
+(Intercept)                                        3.938850   0.355832  11.069
+Domestic.credit.to.private.sector....of.GDP.      -0.006432   0.003184  -2.020
+Exports.of.goods.and.services..annual...growth.    0.053659   0.020717   2.590
+Imports.of.goods.and.services..annual...growth.    0.122658   0.016846   7.281
+Tax.revenue....of.GDP.                            -0.075557   0.018447  -4.096
+India_Dummy                                        1.008180   1.091517   0.924
+T                                                  0.298434   0.701213   0.426
+India_Dummy:T                                      3.179213   2.106573   1.509
+Domestic.credit.to.private.sector....of.GDP.:T    -0.001357   0.005918  -0.229
+Exports.of.goods.and.services..annual...growth.:T  0.018027   0.049744   0.362
+Imports.of.goods.and.services..annual...growth.:T  0.072838   0.044364   1.642
+Tax.revenue....of.GDP.:T                          -0.023753   0.036962  -0.643
+                                                  Pr(>|t|)    
+(Intercept)                                        < 2e-16 ***
+Domestic.credit.to.private.sector....of.GDP.       0.04370 *  
+Exports.of.goods.and.services..annual...growth.    0.00979 ** 
+Imports.of.goods.and.services..annual...growth.   8.66e-13 ***
+Tax.revenue....of.GDP.                            4.68e-05 ***
+India_Dummy                                        0.35598    
+T                                                  0.67053    
+India_Dummy:T                                      0.13169    
+Domestic.credit.to.private.sector....of.GDP.:T     0.81876    
+Exports.of.goods.and.services..annual...growth.:T  0.71716    
+Imports.of.goods.and.services..annual...growth.:T  0.10106    
+Tax.revenue....of.GDP.:T                           0.52067    
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+Residual standard error: 3.537 on 723 degrees of freedom
+Multiple R-squared:  0.2688,	Adjusted R-squared:  0.2576 
+F-statistic: 24.16 on 11 and 723 DF,  p-value: < 2.2e-16
+
+india pre gdp :6.613066
+not india pre gdp :6.359948
+
+india post gdp :6.812244
+not india post gdp :6.529748
