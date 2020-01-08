@@ -1,4 +1,5 @@
 #Read the Data
+library(ggplot2)
 india <- read.csv("/home/archit/EcoProject/Econometrics---Final-Project/data/mises.csv")
 summary(india)
 complete.cases(india)
@@ -78,4 +79,4 @@ ggplot(data = fig1,aes(x = fig1$Correlation.Between.2001.11, y = fig1$Correlatio
 #labels to points
 ggplot(data = fig1,aes(x = fig1$Correlation.Between.2001.11, y = fig1$Correlation.between.2012.18))+
   geom_point(size = 2.0, color="red") + theme(axis.text.x= element_text(size = 10,angle = 45)) +
-  geom_hline(aes(yintercept=0), color="green") + geom_vline(aes(xintercept=0), color="purple", linetype="dashed") + geom_abline(slope = 1,color="blue",) + coord_cartesian(xlim = c(-1,1), ylim = c(-1,1)) + geom_text(aes(label=Variable),hjust=0, vjust=0)
+  geom_hline(aes(yintercept=0), color="green") + geom_vline(aes(xintercept=0), color="purple", linetype="dashed") + geom_abline(slope = 1,color="blue",) + coord_cartesian(xlim = c(-1,1), ylim = c(-1,1)) + geom_text(aes(label=Variable),position = position_nudge(x = -0.07, y = 0),size = 6,hjust=0, vjust=0)
